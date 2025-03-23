@@ -99,11 +99,11 @@ export default function Contact() {
 
       <footer className="bg-[#1c3424] text-gray-300 py-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 md:mb-0 md:block flex justify-center items-center flex-col">
             <h3 className="text-2xl font-bold text-white">JobPortal</h3>
             <p className="text-gray-400">Connecting talent with opportunity.</p>
           </div>
-          <div className="flex flex-wrap gap-6">
+          <div className="flex flex-wrap gap-6 justify-center">
             <a href="/about" className="hover:text-white transition-colors">
               About Us
             </a>
